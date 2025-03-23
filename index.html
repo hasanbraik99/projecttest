@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+  <body>
+
+    <div id="loading-screen">
+      <div class="loading-spinner"></div>
+  </div>
+  
+    <nav class="navbar navbar-expand-lg bg-transparent bg-color-nav fixed-top">
+        <div class="container">
+          <a class="navbar-brand focus-logo ms-5 ps-5 " href="./index.html"> Coffee<small class="logo-custom-word ">Blend</small></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 pe-5  p-2">
+              <li class="nav-item me-4 p-2">
+                <a class="nav-link active custom-nav-text focus-nav-text px-0" aria-current="page" href="#ourhomesuccess">Home</a>
+              </li>
+              <li class="nav-item me-4 p-2">
+                <a class="nav-link   custom-nav-text focus-nav-text px-0" href="#ourstorysuccess">Menu</a>
+              </li>
+              <li class="nav-item  me-4 p-2">
+                <a class="nav-link  custom-nav-text focus-nav-text px-0" href="#ourservicessuccess">Services</a>
+              </li>
+              <li class="nav-item  me-4 p-2">
+                <a class="nav-link  custom-nav-text focus-nav-text px-0" href="#outblogsucess">Blog</a>
+              </li>
+              <li class="nav-item me-4 p-2">
+                <a class="nav-link  custom-nav-text focus-nav-text px-0" href="#ourrecordssuccess">About</a>
+              </li>
+              <li class="nav-item me-4 p-2">
+                <a class="nav-link  custom-nav-text focus-nav-text px-0" href="#contactsucess">Contact</a>
+              </li>
+              <li class="nav-item me-4 p-2">
+                <a class="nav-link custom-nav-text px-0 " href="#"><i class="fa-solid fa-cart-shopping focus-nav-text " style="color: #ffffff;"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+
+      <header id="ourhomesuccess">  
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators d-flex align-items-center justify-content-center">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+              <img src="./assets/img/Home/main/Home-Background3.jpg" class="d-block w-100" alt="coffee,shop,menu,order,sell">
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+                <h1 class="main-text-para-one">Welcome</h1>
+                <p class="main-text-para-two">Amazing Taste & Beautiful Place</p>
+                <p class="main-text-para-three">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="button d-flex gap-2">
+                  <a class="button-one text-decoration-none a-custom-one" href="#">Order Now</a>
+                  <a class="button-two text-decoration-none a-custom-two" href="#">View Menu</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <img src="./assets/img/Home/main/Home-Background1.jpg" class="d-block w-100" alt="coffee,shop,menu,order,sell">
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+                <h1 class="main-text-para-one">Welcome</h1>
+                <p class="main-text-para-two">The Best Coffee Testing Experience</p>
+                <p class="main-text-para-three">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="button d-flex gap-2">
+                  <a class="button-one text-decoration-none a-custom-one" href="#">Order Now</a>
+                  <a class="button-two text-decoration-none a-custom-two" href="#">View Menu</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <img src="./assets/img/Home/main/Home-Background2.jpg" class="d-block w-100" alt="coffee,shop,menu,order,sell">
+              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+                <h1 class="main-text-para-one">Welcome</h1>
+                <p class="main-text-para-two">Creamy Hot and Ready to Serve</p>
+                <p class="main-text-para-three">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="button d-flex gap-2">
+                  <a class="button-one text-decoration-none a-custom-one" href="#">Order Now</a>
+                  <a class="button-two text-decoration-none a-custom-two" href="#">View Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="informations bg-black">
+        <div class="container">
+        <div class="row ">
+          <div class="information d-flex justify-content-between justify-content-center p-5 gap-5">
+            <div class="col-md-3">
+              <p class="info-para-one"> <i class="fa-solid fa-phone" style="color: #C49B63;"></i> &nbsp 000 (123) 456 7890</p>
+              <p class="info-para-two">A small river named Duden flows by their place and supplies</p>
+            </div>
+            <div class="col-md-3">
+              <p class="info-para-one"> <i class="fa-solid fa-phone" style="color: #C49B63;"></i> &nbsp 198 West 21th Street</p>
+              <p class="info-para-two">	203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="col-md-3">
+              <p class="info-para-one"> <i class="fa-solid fa-phone" style="color: #C49B63;"></i> &nbsp Open Monday-Friday</p>
+              <p class="info-para-two">8:00am - 9:00pm</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        
+      </header>
+
+      <main>
+        <section class="discover-our-story pt-5 hidden" id="ourstorysuccess">
+        <div class="row">
+          <div class="col-md-6 discover-our-story-image">
+
+          </div>
+          <div class="col-md-6 discover-our-story-para">
+              <span class="subheading">Discover</span>
+              <h2 class="mb-4 subheadingpara">Our Story</h2>
+              <p class="subheadingpara2">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+
+            </div>
+          </div>
+
+        </div>
+        </section>
+  
+
+        <section class="our-service p-5 mb-5 hidden" id="ourservicessuccess">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-4 d-flex flex-column align-items-center text-center p-5 g-5">
+                <div class="icon-box">
+                  <i class="fa-solid fa-clipboard-list"></i>
+                </div>
+                <p class="our-services-para-one mt-5">Easy to order</p>
+                <p class=" our-services-para-two mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+              <div class="col-md-4 d-flex flex-column align-items-center text-center p-5 g-5">
+                <div class="icon-box">
+                  <i class="fa-solid fa-truck"></i>
+                </div>
+                <p class=" our-services-para-one mt-5">Fastest Delivery</p>
+                <p class=" our-services-para-two mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+              <div class="col-md-4 d-flex flex-column align-items-center text-center p-5 g-5">
+                <div class="icon-box">
+                  <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <p class=" our-services-para-one mt-5">Quality Coffee</p>
+                <p class="our-services-para-two mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <section class="our-menu p-5 hidden">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 p-5">
+                <span class="subheading">Discover</span>
+                <h2 class="mb-4 subheadingpara">Our Menu</h2>
+                <p class="subheadingpara2 ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <a href="#" class="our-menu-button-a">View Full Menu</a>
+              </div>
+              <div class="col-md-6 our-menu-images">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="our-menu-image-one" src="./assets/img/Home/OurMenu/Menu-1.png" alt="coffee-our-products-and-menu"/>
+
+                  </div>
+                  <div class="col-md-6">
+                    <img class="our-menu-image-two" src="./assets/img/Home/OurMenu/Menu-2.png" alt="coffee-our-products-and-menu"/>
+
+                  </div>
+                  <div class="col-md-6">
+                    <img class="our-menu-image-three" src="./assets/img/Home/OurMenu/Menu-3.png" alt="coffee-our-products-and-menu"/>
+
+                  </div>
+                  <div class="col-md-6">
+                    <img class="our-menu-image-four" src="./assets/img/Home/OurMenu/Menu-4.png" alt="coffee-our-products-and-menu"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="our-records mt-5 hidden" id="ourrecordssuccess">
+          <div class="col-12 our-records-background d-flex justify-content-center align-items-center text-center">
+            <div class="container">
+              <div class="row">
+                <div class="our-records-numbers d-flex justify-content-center align-items-center">
+                  <div class="col-md-3">
+                      <div class="our-records-custom-icon">
+                        <i class="fa-solid fa-mug-hot"></i>
+                      </div>
+                      <p class="our-records-para-one">100</p>
+                      <p class="our-records-para-two">Coffee Branches</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="our-records-custom-icon">
+                      <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <p class="our-records-para-one">85</p>
+                    <p class="our-records-para-two">Number Of Awards</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="our-records-custom-icon">
+                      <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <p class="our-records-para-one">10567</p>
+                    <p class="our-records-para-two">Coffee Branches</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="our-records-custom-icon">
+                      <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <p class="our-records-para-one">900</p>
+                    <p class="our-records-para-two">Staff</p>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="best-coffee-sellers p-5 hidden mb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <span class="subheading">Discover</span>
+                <h2 class="mb-4 subheadingpara">Best Coffee Sellers</h2>
+                <p class="subheadingpara2 w-50 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>  
+              </div>
+              <div class="col-md-3 mt-5">
+                <div class="best-coffee-sellers-gallery d-flex justify-content-center align-items-center flex-column text-center">
+                  <img src="./assets/img/Home/Best Seller/Seller-one.jpg" alt="best-coffe-sellers-beans">
+                  <p class="best-coffee-sellers-para-one mt-4">Coffee Capuccino</p>
+                  <p class="best-coffee-sellers-para-two">A small river named Duden flows by their place and supplies</p>
+                  <p class="best-coffee-sellers-para-three">$5.90</p>
+                  <a class="best-coffee-sellers-para-four" href="#"> Add to cart</a>
+                </div>
+              </div>
+              <div class="col-md-3 mt-5">
+                <div class="best-coffee-sellers-gallery d-flex justify-content-center align-items-center flex-column text-center">
+                  <img src="./assets/img/Home/Best Seller/Seller-2.jpg" alt="best-coffe-sellers-beans">
+                  <p class="best-coffee-sellers-para-one mt-4">Coffee Capuccino</p>
+                  <p class="best-coffee-sellers-para-two">A small river named Duden flows by their place and supplies</p>
+                  <p class="best-coffee-sellers-para-three">$5.90</p>
+                  <a class="best-coffee-sellers-para-four" href="#"> Add to cart</a>
+                </div>
+              </div>
+              <div class="col-md-3 mt-5">
+                <div class="best-coffee-sellers-gallery d-flex justify-content-center align-items-center flex-column text-center">
+                  <img src="./assets/img/Home/Best Seller/Seller-3.jpg" alt="best-coffe-sellers-beans">
+                  <p class="best-coffee-sellers-para-one mt-4">Coffee Capuccino</p>
+                  <p class="best-coffee-sellers-para-two">A small river named Duden flows by their place and supplies</p>
+                  <p class="best-coffee-sellers-para-three">$5.90</p>
+                  <a class="best-coffee-sellers-para-four" href="#"> Add to cart</a>
+                </div>
+              </div>
+              <div class="col-md-3 mt-5">
+                <div class="best-coffee-sellers-gallery d-flex justify-content-center align-items-center flex-column text-center">
+                  <img src="./assets/img/Home/Best Seller/Seller-4.jpg" alt="best-coffe-sellers-beans">
+                  <p class="best-coffee-sellers-para-one mt-4">Coffee Capuccino</p>
+                  <p class="best-coffee-sellers-para-two">A small river named Duden flows by their place and supplies</p>
+                  <p class="best-coffee-sellers-para-three">$5.90</p>
+                  <a class="best-coffee-sellers-para-four" href="#"> Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="images-of-our-customers mt-5 mb-5 hidden">
+          <div class="row g-0 m-0 p-0">
+            <div class="col-md-3 ">
+              <div class="image-one d-flex justify-content-center align-items-center g-0 m-0 p-0 ">
+                <div class="images-of-customer-search-icon d-flex justify-content-center align-items-center text-center">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex">
+              <div class="image-two d-flex justify-content-center align-items-center g-0 m-0 p-0">
+                <div class="images-of-customer-search-icon d-flex justify-content-center align-items-center text-center">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-three d-flex justify-content-center align-items-center g-0 m-0 p-0">
+                <div class="images-of-customer-search-icon d-flex justify-content-center align-items-center text-center">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-four d-flex justify-content-center align-items-center g-0 m-0 p-0">
+                <div class="images-of-customer-search-icon d-flex justify-content-center align-items-center text-center">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="our-products p-5 hidden mb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <span class="subheading">Discover</span>
+                <h2 class="mb-4 subheadingpara">Our Products</h2>
+                <p class="subheadingpara2 w-50 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>  
+              </div>
+              
+                <nav class="d-flex justify-content-center align-items-center mt-5">
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class=" our-products-tabs nav-link active me-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Main Dish</button>
+                    <button class=" our-products-tabs nav-link  me-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Drinks</button>
+                    <button class=" our-products-tabs nav-link  me-3" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Desserts</button>
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+                    <div class="row d-flex justify-content-center align-items-center text-center mt-5">
+
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-one.png" alt="dish,food,products">
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-two.png" alt="dish,food,products">
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-three.png" alt="dish,food,products">
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-four.png" alt="dish,food,products">
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-five.png" alt="dish,food,products">
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./assets/img/Home/ourProducts/Dish-six.png" alt="dish,food,products">
+
+                      <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                        <p class="our-products-para-one">Grilled Beef</p>
+                        <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p class=" our-products-para-three" >$2.90</p>
+                        <a class=" our-products-para-four" href="#">Add to cart</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+                    <div class="row d-flex justify-content-center align-items-center text-center mt-5">
+
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-1.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Lemonade Juice</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-2.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Pineapple Juice</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-3.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Soda Drinks</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-4.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Pineapple Juice</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-5.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Pineapple Juice</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/drink-6.jpg" alt="dish,food,products">
+  
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Soda Drinks</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      </div>  
+                  </div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <div class="row d-flex justify-content-center align-items-center text-center mt-5">
+
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-1.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-2.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-3.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-4.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-5.jpg" alt="dish,food,products">
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/img/Home/ourProducts/dessert-6.jpg" alt="dish,food,products">
+  
+                        <div class="our-products-text d-flex justify-content-center align-items-center text-center flex-column">
+                          <p class="our-products-para-one">Hot Cake Honey</p>
+                          <p class=" our-products-para-two w-75"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                          <p class=" our-products-para-three" >$2.90</p>
+                          <a class=" our-products-para-four" href="#">Add to cart</a>
+                        </div>
+                      </div>
+                      </div>  
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="customer-says hidden">
+          <div class="customer-says-backgroundimage">
+            <div class="container">
+              <div class="row d-flex justify-content-center align-items-center text-center">
+                <span class="subheading">Discover</span>
+                <h2 class="mb-4 subheadingpara">Our Products</h2>
+                <p class="subheadingpara2 w-50 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>  
+              </div>
+              <div class="row">
+                <div class="customer-says-comments-section-one col-md-3 mt-5 p-4">
+                  <img src="./assets/img/Home/customer-says/person-one.webp" class="mb-5 customer-image-person" alt="person">
+                  <p class="customer-says-para-two">Louise Kelly</p>
+                  <p class="customer-says-para-three">Illustrator Designer</p>
+                  <p class="customer-says-para-one">“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
+                </div>
+                <div class=" customer-says-comments-section-two col-md-3 mt-5 p-4">
+                  <img src="./assets/img/Home/customer-says/person-two.webp" class="mb-5 customer-image-person" alt="person">
+                  <p class="customer-says-para-two">Louise Kelly</p>
+                  <p class="customer-says-para-three">Illustrator Designer</p>
+                  <p class="customer-says-para-one">“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
+                </div>
+                <div class="customer-says-comments-section-one col-md-3 mt-5 p-4">
+                  <img src="./assets/img/Home/customer-says/person-one.webp" class="mb-5 customer-image-person" alt="person">
+                  <p class="customer-says-para-two">Louise Kelly</p>
+                  <p class="customer-says-para-three">Illustrator Designer</p>
+                  <p class="customer-says-para-one">“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
+                </div>
+                <div class=" customer-says-comments-section-two col-md-3 mt-5 p-4">
+                  <img src="./assets/img/Home/customer-says/person-two.webp" class="mb-5 customer-image-person" alt="person">
+                  <p class="customer-says-para-two">Louise Kelly</p>
+                  <p class="customer-says-para-three">Illustrator Designer</p>
+                  <p class="customer-says-para-one">“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="recent-from-blog p-5 hidden" id="outblogsucess">
+          <div class="container">
+            <div class="row">
+              <div class="recent-blog d-flex justify-content-center align-items-center text-center flex-column">
+                <p class="recent-blog-para-one">Recent from blog</p>
+                <p class="recent-blog-para-two w-50">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+              <div class="blog-reviews">
+                <div class="row">
+                <div class="col-md-4 mb-5">
+                  <img src="./assets/img/Home/blogs/blog-two.jpg" class="mb-3" alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/img/Home/blogs/blog-two.jpg" class="mb-3" alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/img/Home/blogs/blog-five.jpg" class="mb-3" alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/img/Home/blogs/blog-four.jpg" class="mb-3" alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/img/Home/blogs/blog-five.jpg" class="mb-3" alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/img/Home/blogs/blog-four.jpg" class="mb-3"alt="blog,food,review">
+                  <div class="blog-reviews-links">
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3"> Sept 28, 2018 </a>
+                    <a href="#" class=" blog-reviews-one text-decoration-none me-3">Admin</a>
+                    <i class=" blog-reviews-two fa-solid fa-message"></i>
+                    <a href="#"class="text-decoration-none blog-reviews-one">3</a>
+                    <p class=" blog-reviews-three">Coffee Testing Day</p>
+                    <p class=" blog-reviews-four">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="col-12 text-center d-flex justify-content-center align-items-center">
+                <ul class=" list-of-pagi d-flex list-unstyled gap-5 mt-5">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="book-a-table" id="contactsucess">
+          <div class="info-form bg-main-color">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-12 p-3">
+                  <h3 class="info-main">Book A Table</h3>
+                </div>
+              </div>
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <input class="form-control info-custom-texts" type="text" placeholder="First Name"/>
+                </div>
+                <div class="col-md-6">
+                  <input class="form-control info-custom-texts" type="text" placeholder="Last Name"/>
+                </div>
+                <div class="col-md-4">
+                  <input class="form-control info-custom-texts" type="date" placeholder="Date"/>
+                </div>
+                <div class="col-md-4">
+                  <input class="form-control info-custom-texts" type="time" placeholder="Time"/>
+                </div>
+                <div class="col-md-4">
+                  <input class="form-control info-custom-texts" type="tel" placeholder="Phone"/>
+                </div>
+                <div class="col-12">
+                  <input class="form-control info-custom-texts" type="text" placeholder="Message"/>
+                </div>
+                <div class="col-12 text-center p-3 w-100">
+                  <button class="info-custom-button">Appointment</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+
+        <footer>
+          <div class="our-footer-information p-5 b">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 d-flex justify-content-center align-items-center flex-column">
+                  <p class="footer-para-one">About Us</p>
+                  <p class="footer-para-two w-100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  <div class="our-footer-logo">
+                    <a href="#"><i class="fa-brands fa-facebook logo-footer"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter logo-footer"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram logo-footer"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center">
+                  <a href="#" class="d-block mt-1 py-1 footer-para-one text-decoration-none ">Services</a>  <!-- Adds extra top margin -->
+                  <a href="#" class="d-block mt-1 py-1 footer-para-two text-decoration-none">Deliver</a>
+                  <a href="#" class="d-block mt-1 py-1 footer-para-two text-decoration-none">Cooked</a>
+                  <a href="#" class="d-block mt-1 py-1 footer-para-two text-decoration-none">Quality Foods</a>
+                  <a href="#" class="d-block mt-1 py-1 footer-para-two text-decoration-none">Mixed</a>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center flex-column text-center">
+                  <p class="footer-para-one">Have a Questions?</p>
+                  <p class="footer-para-two w-75">203 Fake St. Mountain View, San Francisco, California, USA</p>
+                  <p class="footer-para-two ">+2 392 3929 210</p>
+                  <p class="footer-para-two ">info@yourdomain.com</p>
+
+
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center text-center  p-5 mt-5">
+                <div class="footer-para-one p-5 mt-5">
+                  <p>Copyright ©2025 All rights reserved</p>
+            </div>
+          </div>
+        </footer>
+
+      </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
